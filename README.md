@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## To run the angular application 
 
 Clone or download the Repo.
-Run command npm install to install all dependencies.
+Run command "npm install" to install all dependencies.
 After that Run "ng serve --open" to compile and open the application in your default browser.
 
 ## Development server
