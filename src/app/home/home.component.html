@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class='table-responsive'>
+    <table class="table table-bordered">
+      <thead class = "thead-dark">
+        <tr>
+          
+              <th> Username </th>
+              <th>Git Profile</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = 'let user of users'>
+          <td [routerLink] = "['/profile' , user.login]"style = "cursor: pointer">{{ user.login }}</td>
+          <td><a href="{{user.html_url}}" target="_blank">visit profile</a></td>          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
